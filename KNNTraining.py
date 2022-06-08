@@ -20,14 +20,14 @@ label = iris.target
 Amostras_treino, Amostras_teste, Label_treino, Label_teste = train_test_split(
     amostras, label, test_size=0.25, random_state=10)
 
-knn = KNeighborsClassifier(n_neighbors=3)
+knn = KNeighborsClassifier(n_neighbors=8)
 knn.fit(Amostras_treino, Label_treino)
 
 pred = knn.predict(Amostras_teste)
 
 
 def plot_confusion_matrix(cm, classes,
-                          normalize=True,
+                          normalize=False,
                           title='Confusion matrix',
                           cmap=plt.cm.Blues):
 
@@ -62,4 +62,4 @@ c2 = confusion_matrix(Label_teste, pred)
 class_names = ['Versicolor', 'Setosa', 'Virginica']
 
 plt.figure()
-plot_confusion_matrix(c2, classes=class_names, normalize=True, title='Confusion matrix')
+plot_confusion_matrix(c2, classes=class_names, normalize=False, title='Confusion matrix')

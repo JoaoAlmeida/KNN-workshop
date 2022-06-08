@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7beef979-7465-4cd0-a381-784ea6b28903" name="Default Changelist" comment="" />
+    <list default="true" id="7beef979-7465-4cd0-a381-784ea6b28903" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNNTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNNTraining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KNNTunning.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNNTunning.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rdlOThS9GBl6TentNDR1XZZ9Gw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,9 +60,6 @@
       <module name="KNN-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -72,9 +79,6 @@
       <module name="KNN-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -94,9 +98,6 @@
       <module name="KNN-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -159,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.KNNTunning" />
-        <item itemvalue="Python.Tuning" />
-        <item itemvalue="Python.KNNTunning" />
         <item itemvalue="Python.KNNTraining" />
         <item itemvalue="Python.DatasetPlots" />
+        <item itemvalue="Python.Tuning" />
+        <item itemvalue="Python.KNNTunning" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,9 @@
       <workItem from="1619360783987" duration="1253000" />
       <workItem from="1619374816810" duration="2657000" />
       <workItem from="1619478054925" duration="3902000" />
-      <workItem from="1619555627215" duration="289000" />
+      <workItem from="1619555627215" duration="5139000" />
+      <workItem from="1619728912019" duration="64000" />
+      <workItem from="1654710274710" duration="817000" />
     </task>
     <servers />
   </component>
