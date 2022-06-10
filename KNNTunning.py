@@ -14,8 +14,6 @@ tuned_parameters = [{'n_neighbors': [1,2,3,4,5,6,7,8,9,10]}]
 # Voce pode mudar isso. Como e um vetor, voce pode testar varias caracteristicas ao mesmo tempo
 scores = ['precision']
 
-gcv_mode = "eigen"
-
 iris = datasets.load_iris()
 
 X = iris.data[:, :2]
@@ -47,7 +45,7 @@ for score in scores:
 
     for mean, std, params in zip(means, stds, clf.cv_results_['params']):
         print("%0.3f (+/-%0.03f) for %r"
-              % (mean, std * 2, params))
+              % (mean, std, params))
     print()
 
     print("Detailed classification report:")

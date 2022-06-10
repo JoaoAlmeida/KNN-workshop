@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7beef979-7465-4cd0-a381-784ea6b28903" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KNNTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNNTraining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatasetPlots.py" beforeDir="false" afterPath="$PROJECT_DIR$/DatasetPlots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KNNTunning.py" beforeDir="false" afterPath="$PROJECT_DIR$/KNNTunning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +183,9 @@
       <workItem from="1619555627215" duration="5139000" />
       <workItem from="1619728912019" duration="64000" />
       <workItem from="1654710274710" duration="817000" />
+      <workItem from="1654711934938" duration="203000" />
+      <workItem from="1654860025746" duration="1998000" />
+      <workItem from="1654865161659" duration="2348000" />
     </task>
     <servers />
   </component>

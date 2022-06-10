@@ -20,7 +20,6 @@ x_min, x_max = amostras[:, 0].min() - .5, amostras[:, 0].max() + .5
 y_min, y_max = amostras[:, 1].min() - .5, amostras[:, 1].max() + .5
 
 plt.figure(2, figsize=(8, 6))
-plt.clf()
 
 # Exibe no grafico pontos que correspondem as caracteristicas das amostras
 plt.scatter(amostras[:, 0], amostras[:, 1], c=label, cmap=plt.cm.Set1,
